@@ -1,0 +1,63 @@
+{
+  "$schema_note": "Project-specific navigation manifest; not MCA_SOURCE_MANIFEST.json and not a claim of canonical adoption.",
+  "manifest_id": "IM-GPT-SOURCE-001",
+  "manifest_version": "0.1.0",
+  "status": "PROPOSED",
+  "verified_date": "2026-10-22",
+  "project": {
+    "name": "Immersive Monolith",
+    "namespace_proposed": "immersive_monolith",
+    "game": "Minecraft Java",
+    "target_version_assumed": "1.21.1",
+    "target_loader_assumed": "NeoForge"
+  },
+  "repositories": {
+    "governance": {
+      "full_name": "emmanueltremblay9-stack/Immersive-Monolith-GPT",
+      "url": "https://github.com/emmanueltremblay9-stack/Immersive-Monolith-GPT",
+      "branch": "main",
+      "role": "design-documentation",
+      "head_policy": "Resolve current main HEAD at read time; no HEAD SHA pinned in manifest."
+    },
+    "development": {
+      "full_name": "emmanueltremblay9-stack/Immersive-Monolith-DEV-",
+      "url": "https://github.com/emmanueltremblay9-stack/Immersive-Monolith-DEV-",
+      "configured_default_branch": "main",
+      "role": "code-tests-builds-releases",
+      "state_at_initialization": "EMPTY_NO_HEAD"
+    }
+  },
+  "documents": [
+    {
+      "path": "README.md",
+      "role": "index",
+      "status": "DRAFT"
+    },
+    {
+      "path": "DECISION_LOG.md",
+      "role": "decisions-with-provenance",
+      "status": "WORKING_LOG"
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "role": "proposed-owner-contract-and-handoff",
+      "status": "PROPOSED"
+    },
+    {
+      "path": "specifications/IM-CELL-TRIO.md",
+      "role": "Cell-Trio-spec",
+      "status": "DRAFT"
+    }
+  ],
+  "external_source_restrictions": {
+    "hexcraft_and_xycraft_code_or_assets": "NOT_INCLUDED_PERMISSION_UNVERIFIED",
+    "minecraft_neoforge_api_version_verification": "PENDING"
+  },
+  "source_limitations": {
+    "mca_source_manifest": "NOT_AVAILABLE_IN_ACCESSIBLE_PROJECT_FILES",
+    "timestamp_machine_shared_source": "NOT_AVAILABLE_IN_ACCESSIBLE_PROJECT_FILES",
+    "canonical_adoption": "UNKNOWN",
+    "runtime_build_tests": "NOT_TESTED"
+  },
+  "policy": "Source references are evidence/navigation, not permissions. Preserve decisions and resolve branch/HEAD before dependent writes."
+}
