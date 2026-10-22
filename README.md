@@ -17,6 +17,8 @@ Cible de conception supposée : **Minecraft Java 1.21.1 / NeoForge** ; compatibi
 - [Registre de décisions](DECISION_LOG.md) — provenance, degrés de certitude et décisions ouvertes.
 - [Gouvernance et handoff](GOVERNANCE.md) — limites des autorités et critères d'acceptation.
 - [IM-008 — handoff DEV préparé](handoffs/IM-008-DEV-BOOTSTRAP-PREPARED.md) — bootstrap NeoForge 1.21.1 proposé, non envoyé, non exécuté.
+- [IM-STAGE-009 — architecture du MVP](architecture/IM-009-NEOFORGE-MVP-CONTRACT.md) — contrats, persistance, cible et phases du premier prototype ; distinct de la décision IM-009.
+- [QA géométrique statique IM-STAGE-009](qa/IM-STAGE-009-STATIC-GEOMETRY.md) — 24 transformations calculées sans collision volumique, **non testées en jeu**.
 
 ## Principes
 
