@@ -1,4 +1,6 @@
-# IM-009 — Architecture du MVP Immersive Monolith (NeoForge)
+# IM-STAGE-009 — Architecture du MVP Immersive Monolith (NeoForge)
+
+**Désambiguïsation des IDs :** `IM-STAGE-009` désigne l'étape d'architecture du workflow, tandis que `IM-009` du `DECISION_LOG.md` reste la décision proposée sur les dimensions et les 24 orientations. Le nom historique de ce fichier comporte `IM-009` ; ce nom de fichier ne réattribue pas l'ID de décision. Préserver cette distinction dans les prochains handoffs.
 
 **Statut** : PROPOSED / ARCHITECTURE, **NON ADOPTÉ**, **NOT EXECUTED**
 **Date** : 2026-10-22
