@@ -52,6 +52,16 @@
       "path": "handoffs/IM-008-DEV-BOOTSTRAP-PREPARED.md",
       "role": "bounded-DEV-bootstrap-handoff",
       "status": "PREPARED_NOT_SENT_NOT_EXECUTED"
+    },
+    {
+      "path": "architecture/IM-009-NEOFORGE-MVP-CONTRACT.md",
+      "role": "IM-STAGE-009 proposed architecture contract; workflow stage distinct from decision IM-009",
+      "status": "PROPOSED_NOT_EXECUTED"
+    },
+    {
+      "path": "qa/IM-STAGE-009-STATIC-GEOMETRY.md",
+      "role": "executed static coordinate proof only (not game QA)",
+      "status": "STATIC_COORDINATE_PASS_GAME_NOT_TESTED"
     }
   ],
   "external_source_restrictions": {
