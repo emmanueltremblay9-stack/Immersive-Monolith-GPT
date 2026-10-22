@@ -16,6 +16,7 @@ Cible de conception supposée : **Minecraft Java 1.21.1 / NeoForge** ; compatibi
 - [Conception Cell Trio](specifications/IM-CELL-TRIO.md) — modèle, recettes, drops, placement et génération ; statut par règle.
 - [Registre de décisions](DECISION_LOG.md) — provenance, degrés de certitude et décisions ouvertes.
 - [Gouvernance et handoff](GOVERNANCE.md) — limites des autorités et critères d'acceptation.
+- [IM-008 — handoff DEV préparé](handoffs/IM-008-DEV-BOOTSTRAP-PREPARED.md) — bootstrap NeoForge 1.21.1 proposé, non envoyé, non exécuté.
 
 ## Principes
 
