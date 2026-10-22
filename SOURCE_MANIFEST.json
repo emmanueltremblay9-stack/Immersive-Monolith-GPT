@@ -47,11 +47,16 @@
       "path": "specifications/IM-CELL-TRIO.md",
       "role": "Cell-Trio-spec",
       "status": "DRAFT"
+    },
+    {
+      "path": "handoffs/IM-008-DEV-BOOTSTRAP-PREPARED.md",
+      "role": "bounded-DEV-bootstrap-handoff",
+      "status": "PREPARED_NOT_SENT_NOT_EXECUTED"
     }
   ],
   "external_source_restrictions": {
     "hexcraft_and_xycraft_code_or_assets": "NOT_INCLUDED_PERMISSION_UNVERIFIED",
-    "minecraft_neoforge_api_version_verification": "PENDING"
+    "minecraft_neoforge_api_version_verification": "OFFICIAL_DOCS_1.21.1_REVIEWED_RUNTIME_NOT_TESTED"
   },
   "source_limitations": {
     "mca_source_manifest": "NOT_AVAILABLE_IN_ACCESSIBLE_PROJECT_FILES",
