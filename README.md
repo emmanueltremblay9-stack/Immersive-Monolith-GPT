@@ -24,6 +24,8 @@ Cible de conception supposée : **Minecraft Java 1.21.1 / NeoForge** ; compatibi
 - [IM-STAGE-011 — textures originales et rendu émissif](specifications/IM-STAGE-011-TEXTURES-EMISSIVE-RENDER.md) — contrat des matériaux pour les trois cristaux ; sans code DEV.
 - [IM-STAGE-011 — palette de 16 teintures](assets/IM-STAGE-011-PALETTE.json) — inventaire des 34 PNG originaux de référence, disponibles uniquement comme archive dans la conversation.
 - [IM-STAGE-011 — vérification statique](qa/IM-STAGE-011-ASSET-STATIC-REPORT.json) — 34 textures 32×32 RGBA et empreintes vérifiées, pas de validation Minecraft.
+- [IM-STAGE-012 — contrat d'intégration du rendu](architecture/IM-STAGE-012-CLIENT-RENDER-INTEGRATION.md) — textures par pointe, modèles dynamiques 1.21.1, lumière/émissivité et tests à exécuter.
+- [IM-STAGE-012 — vérification statique des couleurs](qa/IM-STAGE-012-STATIC-CONTRACT-SUMMARY.json) — 4 096 triples, 144 assertions du contrat, **aucun test en jeu**.
 
 ## Principes
 
