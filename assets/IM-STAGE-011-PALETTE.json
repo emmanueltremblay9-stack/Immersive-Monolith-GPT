@@ -1,0 +1,143 @@
+{
+  "project": "Immersive Monolith",
+  "stage_id": "IM-STAGE-011",
+  "date": "2026-10-22",
+  "status": "REFERENCE_PALETTE_PROPOSED_NOT_ADOPTED",
+  "governance_baseline_head": "78eec13e1d05ad159b33fad63d7036e476f13e8d",
+  "target": {
+    "edition": "Minecraft Java",
+    "version_assumed": "1.21.1",
+    "loader_assumed": "NeoForge",
+    "namespace_proposed": "immersive_monolith"
+  },
+  "color_space": "sRGB",
+  "resolution_px": [
+    32,
+    32
+  ],
+  "format": "PNG RGBA",
+  "color_count": 16,
+  "color_data_source": "CREATIVE_SWATCH_APPROXIMATION_NOT_VANILLA_ENGINE_COLOR_CONSTANT",
+  "colors": [
+    {
+      "id": "white",
+      "design_swatch": "#F9FFFE",
+      "texture_block": "assets/immersive_monolith/textures/block/cell_trio_facet_white.png",
+      "texture_item": "assets/immersive_monolith/textures/item/crystal_white.png"
+    },
+    {
+      "id": "orange",
+      "design_swatch": "#F9801D",
+      "texture_block": "assets/immersive_monolith/textures/block/cell_trio_facet_orange.png",
+      "texture_item": "assets/immersive_monolith/textures/item/crystal_orange.png"
+    },
+    {
+      "id": "magenta",
+      "design_swatch": "#C74EBD",
+      "texture_block": "assets/immersive_monolith/textures/block/cell_trio_facet_magenta.png",
+      "texture_item": "assets/immersive_monolith/textures/item/crystal_magenta.png"
+    },
+    {
+      "id": "light_blue",
+      "design_swatch": "#3AB3DA",
+      "texture_block": "assets/immersive_monolith/textures/block/cell_trio_facet_light_blue.png",
+      "texture_item": "assets/immersive_monolith/textures/item/crystal_light_blue.png"
+    },
+    {
+      "id": "yellow",
+      "design_swatch": "#FED83D",
+      "texture_block": "assets/immersive_monolith/textures/block/cell_trio_facet_yellow.png",
+      "texture_item": "assets/immersive_monolith/textures/item/crystal_yellow.png"
+    },
+    {
+      "id": "lime",
+      "design_swatch": "#80C71F",
+      "texture_block": "assets/immersive_monolith/textures/block/cell_trio_facet_lime.png",
+      "texture_item": "assets/immersive_monolith/textures/item/crystal_lime.png"
+    },
+    {
+      "id": "pink",
+      "design_swatch": "#F38BAA",
+      "texture_block": "assets/immersive_monolith/textures/block/cell_trio_facet_pink.png",
+      "texture_item": "assets/immersive_monolith/textures/item/crystal_pink.png"
+    },
+    {
+      "id": "gray",
+      "design_swatch": "#474F52",
+      "texture_block": "assets/immersive_monolith/textures/block/cell_trio_facet_gray.png",
+      "texture_item": "assets/immersive_monolith/textures/item/crystal_gray.png"
+    },
+    {
+      "id": "light_gray",
+      "design_swatch": "#9D9D97",
+      "texture_block": "assets/immersive_monolith/textures/block/cell_trio_facet_light_gray.png",
+      "texture_item": "assets/immersive_monolith/textures/item/crystal_light_gray.png"
+    },
+    {
+      "id": "cyan",
+      "design_swatch": "#169C9C",
+      "texture_block": "assets/immersive_monolith/textures/block/cell_trio_facet_cyan.png",
+      "texture_item": "assets/immersive_monolith/textures/item/crystal_cyan.png"
+    },
+    {
+      "id": "purple",
+      "design_swatch": "#8932B8",
+      "texture_block": "assets/immersive_monolith/textures/block/cell_trio_facet_purple.png",
+      "texture_item": "assets/immersive_monolith/textures/item/crystal_purple.png"
+    },
+    {
+      "id": "blue",
+      "design_swatch": "#3C44AA",
+      "texture_block": "assets/immersive_monolith/textures/block/cell_trio_facet_blue.png",
+      "texture_item": "assets/immersive_monolith/textures/item/crystal_blue.png"
+    },
+    {
+      "id": "brown",
+      "design_swatch": "#835432",
+      "texture_block": "assets/immersive_monolith/textures/block/cell_trio_facet_brown.png",
+      "texture_item": "assets/immersive_monolith/textures/item/crystal_brown.png"
+    },
+    {
+      "id": "green",
+      "design_swatch": "#5E7C16",
+      "texture_block": "assets/immersive_monolith/textures/block/cell_trio_facet_green.png",
+      "texture_item": "assets/immersive_monolith/textures/item/crystal_green.png"
+    },
+    {
+      "id": "red",
+      "design_swatch": "#B02E26",
+      "texture_block": "assets/immersive_monolith/textures/block/cell_trio_facet_red.png",
+      "texture_item": "assets/immersive_monolith/textures/item/crystal_red.png"
+    },
+    {
+      "id": "black",
+      "design_swatch": "#1D1D21",
+      "texture_block": "assets/immersive_monolith/textures/block/cell_trio_facet_black.png",
+      "texture_item": "assets/immersive_monolith/textures/item/crystal_black.png"
+    }
+  ],
+  "shared": {
+    "neutral": "assets/immersive_monolith/textures/block/cell_trio_facet_neutral.png",
+    "emission_mask": "assets/immersive_monolith/textures/block/cell_trio_emission_mask.png"
+  },
+  "expected_png_count": 34,
+  "artifact_source": "Procedural original texture generation, conversation-local ZIP; binary PNGs NOT COMMITTED TO GIT.",
+  "artifact_zip_sha256": "6bf4ee97cbbc43d54dfe708d33276802d65694c83d0b2b50b5442c1d0785ad9e",
+  "variant_semantics": {
+    "composition_slots": [
+      "SMALL",
+      "MEDIUM",
+      "TALL"
+    ],
+    "valid_dye_ids": 16,
+    "ordered_combinations": 4096
+  },
+  "rendering_limits": [
+    "The PNG emission mask is not automatically luminous in NeoForge 1.21.1.",
+    "Colored block lighting is not a vanilla feature.",
+    "Per-point emissivity and tint routing require integration testing.",
+    "Bloom/shaders optional; not a minimum dependency."
+  ],
+  "license_status": "UNKNOWN_REQUIRES_OWNER_SELECTION",
+  "asset_provenance": "Original procedural generation; HEXCraft and XyCraft source textures/code not copied."
+}
