@@ -21,6 +21,9 @@ Cible de conception supposée : **Minecraft Java 1.21.1 / NeoForge** ; compatibi
 - [QA géométrique statique IM-STAGE-009](qa/IM-STAGE-009-STATIC-GEOMETRY.md) — rapport historique, **étiquettes des faces cardinales corrigées à l'étape 010** ; non testé en jeu.
 - [IM-STAGE-010 — blueprint 3D du Cell Trio](blueprints/IM-STAGE-010-TRIO-HEX-MESH.md) — positions déterministes, 24 rotations, rendu dynamique et choix proposés.
 - [IM-STAGE-010 — preuve mathématique](qa/IM-STAGE-010-HEX-TRANSFORMS-REPORT.json) — 24 orientations vérifiées par calcul local ; **aucun test Minecraft**.
+- [IM-STAGE-011 — textures originales et rendu émissif](specifications/IM-STAGE-011-TEXTURES-EMISSIVE-RENDER.md) — contrat des matériaux pour les trois cristaux ; sans code DEV.
+- [IM-STAGE-011 — palette de 16 teintures](assets/IM-STAGE-011-PALETTE.json) — inventaire des 34 PNG originaux de référence, disponibles uniquement comme archive dans la conversation.
+- [IM-STAGE-011 — vérification statique](qa/IM-STAGE-011-ASSET-STATIC-REPORT.json) — 34 textures 32×32 RGBA et empreintes vérifiées, pas de validation Minecraft.
 
 ## Principes
 
