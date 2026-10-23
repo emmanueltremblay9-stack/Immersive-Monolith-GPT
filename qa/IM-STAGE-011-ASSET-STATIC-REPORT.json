@@ -1,0 +1,27 @@
+{
+  "stage": "IM-STAGE-011",
+  "status": "PASS_STATIC_ASSETS_ONLY",
+  "checked_date": "2026-10-22",
+  "files_sha256_verified": 36,
+  "textures_png_valid": 34,
+  "per_color_block_textures": 16,
+  "per_color_item_textures": 16,
+  "shared_textures": 2,
+  "each_png_resolution": [
+    32,
+    32
+  ],
+  "each_png_mode": "RGBA",
+  "palette_count": 16,
+  "sprite_archive_sha256": "6bf4ee97cbbc43d54dfe708d33276802d65694c83d0b2b50b5442c1d0785ad9e",
+  "asset_distribution": "CONVERSATION_ATTACHMENT_ONLY_NOT_COMMITTED_TO_DEV_OR_GPT",
+  "no_runtime_test": true,
+  "provenance": "Independent local ZIP/PIL/hash audit on procedurally generated original textures; no HEXCraft/XyCraft files used.",
+  "known_limitations": [
+    "No live Minecraft/NeoForge model loading or rendering tested",
+    "Palette RGB swatches are art direction, not version-specific vanilla engine RGB",
+    "An emission-mask PNG is not automatically a fullbright render layer",
+    "Preview and ZIP are conversation attachments, not Git repository binaries"
+  ],
+  "next_acceptance": "Owner DEV must approve scope before staging these PNGs into a branch and running isolated client/server texture tests."
+}
