@@ -1,0 +1,62 @@
+{
+  "evidence_id": "IM-VIS-001-STATIC-001",
+  "status": "PASS_STATIC_COORDINATES_ONLY",
+  "reference_document": "blueprints/IM-VIS-001-CELL-TRIO-CANON-CANDIDATE.md",
+  "subject": "proposed original triangle-packed Cell Trio, five morphologies; not Minecraft-tested",
+  "user_source_image_sha256": "36aa174b4cf2306986234c7545178b0164b0165c59312cde6c883fc4d8840563",
+  "checked": {
+    "shapes": 5,
+    "attachment_faces": 6,
+    "quarter_turns": 4,
+    "unique_poses_per_style": 24,
+    "total_valid_poses": 120,
+    "coordinate_min": 0,
+    "coordinate_max": 16,
+    "occupied_world_block_count": 1,
+    "color_count": 16,
+    "ordered_color_triples": 4096,
+    "style_color_combinations": 20480
+  },
+  "measured_gaps_units_1_16": {
+    "small_medium_core": 1.3,
+    "small_tall_core": 1.2633,
+    "medium_tall_core": 1.2633,
+    "small_medium_caps": 0.36,
+    "small_tall_caps": 0.3238,
+    "medium_tall_caps": 0.3238
+  },
+  "geometry_assertions": [
+    "All vertices in local block bounds for all five styles",
+    "All six support-face mappings put base y=0 against named support plane",
+    "For each morphology, the 24 attachment/roll orientations have distinct transformed vertex positions",
+    "Crystal cross-sections are non-overlapping; stone foundation intentionally shared"
+  ],
+  "compiled_neoforge": "NOT_TESTED",
+  "minecraft_client": "NOT_TESTED",
+  "dedicated_server": "NOT_TESTED",
+  "visual_similarity": "NOT_MEASURED_USER_REVIEW_NEEDED",
+  "shaderless_emissive": "NOT_TESTED",
+  "geometry_archive": {
+    "filename": "Immersive_Monolith_IM-VIS-001_Model_Reference_Candidate.zip",
+    "sha256": "5654dd27ccc604bdb80aa3b1ceb9cf9dc72e83c99539e014df1f0f6710526561",
+    "location": "conversation-attachment-only",
+    "contains": [
+      "reference_user_selected.png",
+      "reference_user_marked_five_variants.png",
+      "CELL_TRIO_CANON_CANDIDATE_AUDIT.md",
+      "check_reference_geometry.py",
+      "static_geometry_report.json",
+      "five_mesh_preview.png",
+      "proposed_block_layout.png",
+      "5 OBJ conceptual meshes + MTL files"
+    ]
+  },
+  "constraints": [
+    "The static test is mathematical only; all model components proposed, not adopted",
+    "OBJ previews are NOT valid NeoForge model JSON files",
+    "Real glow, ambient light, colored lighting and alpha sorting were not tested",
+    "The old Stage-010 line-arranged blueprint remains historical; its PASS does not verify the new triangle",
+    "Unknown test run time and FPS/TPS; do not extrapolate"
+  ],
+  "authority": "Concept audit only. No DEV write, no handoff transmission, no canonical adoption."
+}
