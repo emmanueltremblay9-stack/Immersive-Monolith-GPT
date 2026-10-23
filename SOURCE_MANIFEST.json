@@ -117,6 +117,16 @@
       "path": "blueprints/IM-VIS-003-DEFAULT-R01-USER-APPROVED-BBMODEL.md",
       "role": "explicit user approval of exact DEFAULT r01 uploaded .bbmodel design reference; 13 meshes and 5 embedded original PNG textures validated statically",
       "status": "APPROVED_MODEL_REFERENCE_RUNTIME_NOT_TESTED_BINARY_NOT_COMMITTED"
+    },
+    {
+      "path": "architecture/IM-STAGE-013-EXACT-BBMODEL-ASSET-EXPORT.md",
+      "role": "Exact Blockbench 13-mesh source converted into 3 OBJ/MTL material groups; package archived only as conversation attachment",
+      "status": "PREPARED_ASSETS_PASS_STATIC_MINECRAFT_NOT_TESTED"
+    },
+    {
+      "path": "handoffs/IM-STAGE-014-DEV-RENDER-SMOKE-HANDOFF-PREPARED.md",
+      "role": "Bounded owner handoff for version-pinned NeoForge 1.21.1 client+server translucent/render tests",
+      "status": "PREPARED_NOT_SENT_NOT_EXECUTED"
     }
   ],
   "external_source_restrictions": {
@@ -145,7 +155,13 @@
     "im_vis_003_bbmodel_sha256": "f2c09b84432c2675213f52dc92311a883c143ab1cac6fce37c51490dfbc4fef6",
     "im_vis_003_reference": "APPROVED_BY_USER_DEFAULT_R01_ONLY",
     "im_vis_003_artifact_storage": "CONVERSATION_UPLOAD_ONLY_NOT_GIT",
-    "im_vis_003_game_test": "NOT_TESTED"
+    "im_vis_003_game_test": "NOT_TESTED",
+    "stage013_artifact": "Immersive_Monolith_IM-STAGE-013_Asset_Handoff_Prepared.zip",
+    "stage013_package_sha256": "24b5ad25826c9c35da6e18ee46946297b12cf563a06957b6e193476297b30985",
+    "stage013_file_location": "CONVERSATION_ONLY_NOT_COMMITTED_TO_GIT_DEV",
+    "stage013_static_verification": "13_MESHES_905_FACES_1702_TRIANGLES_24_BOUNDS_PASS; 3 MATERIAL GROUPS; ENGINE_NOT_TESTED",
+    "stage013_visual_discrepancy": "APPROVED_BBMODEL_NO_UPPER_STONE_CAPS; CONCEPT_IMAGE_SHOWED_TOP_CAPS; REQUIRE_EXPLICIT_OWNER_DECISION_BEFORE_ADDING",
+    "stage014_qa": "TEST_PLAN_PREPARED_NOT_EXECUTED"
   },
   "policy": "Source references are evidence/navigation, not permissions. Preserve decisions and resolve branch/HEAD before dependent writes."
 }
