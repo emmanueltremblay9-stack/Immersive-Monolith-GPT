@@ -1,0 +1,160 @@
+{
+  "schema_version": "1.0-proposed",
+  "project": "Immersive Monolith",
+  "model": "Cell Trio",
+  "ref_id": "IM-VIS-001",
+  "status": "MODEL_CANON_CANDIDATE_NOT_ADOPTED",
+  "source_image": {
+    "name": "Cell Trio Crystal Build Guide(1).png",
+    "sha256": "36aa174b4cf2306986234c7545178b0164b0165c59312cde6c883fc4d8840563",
+    "annotation_sha256": "c347c518a24c5510764e77304c281eb15537f281e3fc5326dbb633e3e29ac145"
+  },
+  "image_role": "SELECTED_VISUAL_REFERENCE_NOT_MEASUREMENT",
+  "geometry_units": "1/16 minecraft block",
+  "cube_bounds": [
+    0,
+    16
+  ],
+  "orientation": "+Y up, +Z rear, +X right",
+  "arrangement": "TRIANGULAR",
+  "parts": [
+    {
+      "id": "SMALL",
+      "center_x": 11.2,
+      "center_z": 5.5,
+      "top_y": 7,
+      "side": "front-right"
+    },
+    {
+      "id": "MEDIUM",
+      "center_x": 4.8,
+      "center_z": 5.5,
+      "top_y": 11,
+      "side": "front-left"
+    },
+    {
+      "id": "TALL",
+      "center_x": 8,
+      "center_z": 11,
+      "top_y": 15.2,
+      "side": "rear-center"
+    }
+  ],
+  "radii": {
+    "crystal_circumradius": 2.55,
+    "stone_cap_circumradius": 3.02,
+    "shared_stone_base_circumradius": 3.16
+  },
+  "heights": {
+    "common_stone_base_top": 1.55,
+    "foot_collar_bottom": 1.2,
+    "foot_collar_top": 1.87,
+    "crystal_stem_bottom": 1.7,
+    "stone_cap_height": 0.76
+  },
+  "polygon_formula": "k=0..5: (cx+r*cos(k*pi/3), z=cz+r*sin(k*pi/3)) ; extrude y",
+  "shared_stone_base": "extrude convex hull of three radius=3.16 hexes from y=0 to y=1.55",
+  "shape_variants": {
+    "DEFAULT": {
+      "tips": {
+        "SMALL": "flat_with_stone_cap",
+        "MEDIUM": "flat_with_stone_cap",
+        "TALL": "flat_with_stone_cap"
+      },
+      "stone_caps": [
+        "SMALL",
+        "MEDIUM",
+        "TALL"
+      ]
+    },
+    "TAPERED": {
+      "tips": {
+        "SMALL": "long_taper",
+        "MEDIUM": "flat_with_stone_cap",
+        "TALL": "long_taper"
+      },
+      "stone_caps": [
+        "MEDIUM"
+      ]
+    },
+    "SMOOTH": {
+      "tips": {
+        "SMALL": "short_faceted_dome",
+        "MEDIUM": "flat_with_stone_cap",
+        "TALL": "short_faceted_dome"
+      },
+      "stone_caps": [
+        "MEDIUM"
+      ]
+    },
+    "ANGLED": {
+      "tips": {
+        "SMALL": "flat_with_stone_cap",
+        "MEDIUM": "flat_with_stone_cap",
+        "TALL": "oblique_cut"
+      },
+      "stone_caps": [
+        "SMALL",
+        "MEDIUM"
+      ]
+    },
+    "SPIKE": {
+      "tips": {
+        "SMALL": "flat_with_stone_cap",
+        "MEDIUM": "flat_with_stone_cap",
+        "TALL": "central_needle_plus_2_decorative_shards"
+      },
+      "stone_caps": [
+        "SMALL",
+        "MEDIUM"
+      ],
+      "note": "decorative shards are part of TALL, not extra crystal/drop units"
+    }
+  },
+  "dyes": [
+    "white",
+    "orange",
+    "magenta",
+    "light_blue",
+    "yellow",
+    "lime",
+    "pink",
+    "gray",
+    "light_gray",
+    "cyan",
+    "purple",
+    "blue",
+    "brown",
+    "green",
+    "red",
+    "black"
+  ],
+  "vanilla_light_level_proposed": 10,
+  "same_world_block": true,
+  "attachment_faces": [
+    "UP",
+    "DOWN",
+    "NORTH",
+    "SOUTH",
+    "EAST",
+    "WEST"
+  ],
+  "axial_rotations": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "game_drops_scope": "THREE_LOGICAL_CRYSTALS_ONLY; IM-013 recipe/drop conflict unresolved",
+  "persistence_proposed": [
+    "smallColor",
+    "mediumColor",
+    "tallColor",
+    "shapeVariant",
+    "origin",
+    "schemaVersion"
+  ],
+  "implemented": false,
+  "runtime_tests": "NOT_TESTED",
+  "export_note": "OBJ and scripts provided as conversation archive, not Minecraft/Blockbench models or Git DEV files"
+}
