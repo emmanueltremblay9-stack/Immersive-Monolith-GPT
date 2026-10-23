@@ -60,8 +60,18 @@
     },
     {
       "path": "qa/IM-STAGE-009-STATIC-GEOMETRY.md",
-      "role": "executed static coordinate proof only (not game QA)",
-      "status": "STATIC_COORDINATE_PASS_GAME_NOT_TESTED"
+      "role": "historical static geometry report; cardinal face labels corrected and superseded by stage-010",
+      "status": "HISTORICAL_PARTIAL_CORRECTION_GAME_NOT_TESTED"
+    },
+    {
+      "path": "blueprints/IM-STAGE-010-TRIO-HEX-MESH.md",
+      "role": "deterministic 3D point mesh, face rotation and rendering alternatives",
+      "status": "PROPOSED_BLUEPRINT"
+    },
+    {
+      "path": "qa/IM-STAGE-010-HEX-TRANSFORMS-REPORT.json",
+      "role": "executed static deterministic geometry evidence; no Minecraft run",
+      "status": "PASS_STATIC_ONLY_GAME_NOT_TESTED"
     }
   ],
   "external_source_restrictions": {
@@ -72,7 +82,8 @@
     "mca_source_manifest": "NOT_AVAILABLE_IN_ACCESSIBLE_PROJECT_FILES",
     "timestamp_machine_shared_source": "NOT_AVAILABLE_IN_ACCESSIBLE_PROJECT_FILES",
     "canonical_adoption": "UNKNOWN",
-    "runtime_build_tests": "NOT_TESTED"
+    "runtime_build_tests": "NOT_TESTED",
+    "geometry_evidence": "STAGE_010_LOCAL_PYTHON_PASS_24_POSES_MESH_NOT_TESTED_IN_GAME"
   },
   "policy": "Source references are evidence/navigation, not permissions. Preserve decisions and resolve branch/HEAD before dependent writes."
 }
