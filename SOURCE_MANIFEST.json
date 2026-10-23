@@ -112,6 +112,11 @@
       "path": "qa/IM-VIS-001-TRIANGULAR-STATIC-QA.json",
       "role": "local static 5 shapes x 24 poses=120 tests; no Minecraft runtime evidence",
       "status": "PASS_STATIC_ONLY_GAME_NOT_TESTED"
+    },
+    {
+      "path": "blueprints/IM-VIS-003-DEFAULT-R01-USER-APPROVED-BBMODEL.md",
+      "role": "explicit user approval of exact DEFAULT r01 uploaded .bbmodel design reference; 13 meshes and 5 embedded original PNG textures validated statically",
+      "status": "APPROVED_MODEL_REFERENCE_RUNTIME_NOT_TESTED_BINARY_NOT_COMMITTED"
     }
   ],
   "external_source_restrictions": {
@@ -135,7 +140,12 @@
     "new_visual_reference_model_status": "SELECTED_VISUAL_REFERENCE_MODEL_CANON_CANDIDATE_NOT_ADOPTED",
     "im_vis_001_package_sha256": "5654dd27ccc604bdb80aa3b1ceb9cf9dc72e83c99539e014df1f0f6710526561",
     "im_vis_001_assets_location": "CONVERSATION_ATTACHMENT_ONLY_NOT_GIT_DEV",
-    "im_vis_001_runtime": "NOT_TESTED; static math only"
+    "im_vis_001_runtime": "NOT_TESTED; static math only",
+    "im_vis_003_bbmodel_filename": "Cell_Trio_DEFAULT_r01(1).bbmodel",
+    "im_vis_003_bbmodel_sha256": "f2c09b84432c2675213f52dc92311a883c143ab1cac6fce37c51490dfbc4fef6",
+    "im_vis_003_reference": "APPROVED_BY_USER_DEFAULT_R01_ONLY",
+    "im_vis_003_artifact_storage": "CONVERSATION_UPLOAD_ONLY_NOT_GIT",
+    "im_vis_003_game_test": "NOT_TESTED"
   },
   "policy": "Source references are evidence/navigation, not permissions. Preserve decisions and resolve branch/HEAD before dependent writes."
 }
