@@ -1,0 +1,84 @@
+{
+  "project": "Immersive Monolith",
+  "stage": "IM-STAGE-012",
+  "execution_date_local": "2026-10-22",
+  "scope": "Static resource inventory and ordered-color-slot contract (Python + Pillow, no Minecraft)",
+  "result": "PASS_STATIC_CONTRACT_ONLY",
+  "minecraft_runtime": "NOT_TESTED",
+  "client_render": "NOT_TESTED",
+  "dedicated_server": "NOT_TESTED",
+  "performance": "UNKNOWN",
+  "input_artifacts": {
+    "stage011_zip_filename": "Immersive_Monolith_Stage011_Original_Texture_References.zip",
+    "stage011_zip_sha256": "6bf4ee97cbbc43d54dfe708d33276802d65694c83d0b2b50b5442c1d0785ad9e",
+    "conversation_attachment_only": true
+  },
+  "test_procedure": {
+    "script_filename": "stage012_contract_check.py",
+    "script_sha256": "d8fc76689ff2cd352410be9b8827524bb6cea6f14af937bb1113196b7c98b2a7",
+    "complete_local_report_filename": "IM-STAGE-012-STATIC-CONTRACT-REPORT.json",
+    "complete_local_report_sha256": "a0ffab3aa8df3fea6f62994062676ec99a4ad8ba274dd5832dae0ce01498a6b0",
+    "available_in_git": false
+  },
+  "assertions": {
+    "zip_members": 39,
+    "sha256_entries_verified": 36,
+    "valid_rgba_pngs": 34,
+    "texture_pixels": [
+      32,
+      32
+    ],
+    "color_count": 16,
+    "distinct_ordered_color_triples": 4096,
+    "slots": [
+      "SMALL",
+      "MEDIUM",
+      "TALL"
+    ],
+    "attachment_faces": 6,
+    "quarter_turns": 4,
+    "example_composition_count": 6,
+    "slot_mapping_assertions": 144,
+    "emission_mask_alpha_min": 0,
+    "emission_mask_alpha_max": 204
+  },
+  "sample_triples": [
+    [
+      "white",
+      "white",
+      "white"
+    ],
+    [
+      "blue",
+      "blue",
+      "purple"
+    ],
+    [
+      "red",
+      "green",
+      "blue"
+    ],
+    [
+      "cyan",
+      "magenta",
+      "yellow"
+    ],
+    [
+      "black",
+      "gray",
+      "light_gray"
+    ],
+    [
+      "light_blue",
+      "orange",
+      "lime"
+    ]
+  ],
+  "known_limitations": [
+    "Slot mapping assertions verify the design contract, not the output of a Minecraft BakedModel.",
+    "Emissive lightmap, renderer culling, item overrides, atlas registration, synchronization and block light are untested.",
+    "No Gradle/NeoForge JAR build; no runtime, integration, FPS or TPS tests.",
+    "Code and full report are conversation-local source artifacts, not committed to GitHub; hash values allow verification if transferred later."
+  ],
+  "authority": "Prepared as a QA record in the governance repository. Not an approval to write DEV, activate crafting/loot or publish."
+}
