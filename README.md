@@ -31,6 +31,8 @@ Cible de conception supposée : **Minecraft Java 1.21.1 / NeoForge** ; compatibi
 - [IM-VIS-001 — contrôle géométrique statique](qa/IM-VIS-001-TRIANGULAR-STATIC-QA.json) — 5 modèles × 24 poses calculées ; **non testé dans Minecraft**.
 - [IM-VIS-002 — validation visuelle de DEFAULT](blueprints/IM-VIS-002-CELL-TRIO-DEFAULT-VISUAL-APPROVAL.md) — référence d'apparence approuvée, non testée en jeu.
 - [IM-VIS-003 — Blockbench DEFAULT r01 approuvé](blueprints/IM-VIS-003-DEFAULT-R01-USER-APPROVED-BBMODEL.md) — identité SHA-256 de l'artefact exact joint ; **modèle moteur non testé**.
+- [IM-STAGE-013 — export du BBMODEL approuvé](architecture/IM-STAGE-013-EXACT-BBMODEL-ASSET-EXPORT.md) — trois couches OBJ/MTL, textures d'origine et QA géométrique, **non chargées en jeu**.
+- [IM-STAGE-014 — handoff rendu/QA préparé](handoffs/IM-STAGE-014-DEV-RENDER-SMOKE-HANDOFF-PREPARED.md) — chargement client/serveur et tests de transparence à exécuter par DEV ; **non transmis**.
 
 ## Principes
 
