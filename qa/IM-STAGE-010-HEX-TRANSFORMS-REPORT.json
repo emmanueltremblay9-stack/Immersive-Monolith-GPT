@@ -1,0 +1,79 @@
+{
+  "checks": {
+    "adjacent_crystals_share_edge": true,
+    "distinct_orientations": 24,
+    "footprint_area_per_crystal": 12,
+    "strict_footprint_volume_intersections": 0,
+    "support_face_and_bounding_pass": true,
+    "total_orientations": 24,
+    "total_vertices": 39,
+    "vertex_count_per_crystal": 13
+  },
+  "face_semantics": {
+    "DOWN": {
+      "axis": 1,
+      "support_plane": 16
+    },
+    "EAST": {
+      "axis": 0,
+      "support_plane": 16
+    },
+    "NORTH": {
+      "axis": 2,
+      "support_plane": 0
+    },
+    "SOUTH": {
+      "axis": 2,
+      "support_plane": 16
+    },
+    "UP": {
+      "axis": 1,
+      "support_plane": 0
+    },
+    "WEST": {
+      "axis": 0,
+      "support_plane": 0
+    }
+  },
+  "inputs": {
+    "cell_dimensions": [
+      1,
+      1,
+      1
+    ],
+    "cells": [
+      {
+        "center_x": 4,
+        "center_z": 8,
+        "point": "SMALL",
+        "shoulder_y": 4,
+        "tip_y": 6
+      },
+      {
+        "center_x": 8,
+        "center_z": 8,
+        "point": "MEDIUM",
+        "shoulder_y": 8,
+        "tip_y": 10
+      },
+      {
+        "center_x": 12,
+        "center_z": 8,
+        "point": "TALL",
+        "shoulder_y": 13,
+        "tip_y": 15
+      }
+    ],
+    "footprints": "hexagons tangent on shared vertical edges",
+    "unit": "1/16 block"
+  },
+  "limitations": [
+    "does not test NeoForge or Minecraft renderer",
+    "does not test actual VoxelShape or placement hooks",
+    "does not evaluate emissive textures or light",
+    "does not test world generation or economy"
+  ],
+  "project": "Immersive Monolith",
+  "stage": "IM-STAGE-010",
+  "status": "PASS_STATIC_GEOMETRY_ONLY"
+}
