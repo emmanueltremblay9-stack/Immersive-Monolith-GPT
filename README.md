@@ -29,6 +29,8 @@ Cible de conception supposée : **Minecraft Java 1.21.1 / NeoForge** ; compatibi
 - [IM-VIS-001 — analyse de la référence visuelle sélectionnée](blueprints/IM-VIS-001-CELL-TRIO-CANON-CANDIDATE.md) — cinq silhouettes, groupe triangulaire, corrections proposées ; **pas une adoption de géométrie canonique**.
 - [IM-VIS-001 — coordonnées et formes candidates](blueprints/IM-VIS-001-PARAMETERS.json) — paramétrage déterministe d'un Cell Trio compact dans 1×1×1.
 - [IM-VIS-001 — contrôle géométrique statique](qa/IM-VIS-001-TRIANGULAR-STATIC-QA.json) — 5 modèles × 24 poses calculées ; **non testé dans Minecraft**.
+- [IM-VIS-002 — validation visuelle de DEFAULT](blueprints/IM-VIS-002-CELL-TRIO-DEFAULT-VISUAL-APPROVAL.md) — référence d'apparence approuvée, non testée en jeu.
+- [IM-VIS-003 — Blockbench DEFAULT r01 approuvé](blueprints/IM-VIS-003-DEFAULT-R01-USER-APPROVED-BBMODEL.md) — identité SHA-256 de l'artefact exact joint ; **modèle moteur non testé**.
 
 ## Principes
 
