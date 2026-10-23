@@ -32,6 +32,10 @@ L'approbation `IM-VIS-003` est bornée à la référence `DEFAULT r01` et n'impl
 
 ## Conflits non arbitrés
 
+- **IM-VIS-003-CAPS — OPEN (écart d'assets à arbitrer)** : l'image de référence `IM-VIS-002` illustre trois coiffes rocheuses **supérieures**. Le `.bbmodel` exact que l'utilisateur a ensuite approuvé `IM-VIS-003` contient de la matière `stone` seulement dans sa partie basse (Y ≤ 2,4/16) et **aucune coiffe haute**. La priorité documentaire reste **le fichier exact approuvé**, sans ajout silencieux. Si l'owner souhaite rapprocher davantage le rendu de l'illustration, créer une révision de fichier approuvée séparément, pas une mutation du SHA déjà accepté.
+- **IM-STAGE-013** : `inset_blue.png` est dans la source, mais n'est référencé par aucune des 905 faces. Préserver l'asset et documenter son absence d'usage ; aucune suppression tacite.
+
+
 - `IM-007` « 3 cristaux sur un trio multicolore » versus `IM-008` « fabrication par teintures » + `IM-006` « rendement 4 » : le recyclage d'un trio fabriqué en cristaux dupliquerait des teintures. Ne pas interdire les drops des trios fabriqués sans accord explicite ; soumettre l'option `CRAFTED` sans cristaux à l'owner.
 - Les 16 couleurs appartiennent au projet original, ne pas mélanger avec les **cinq couleurs** du HEXCraft original.
 - Le principe de placement six faces peut être réimplémenté de façon indépendante ; **aucune autorisation de copier le modèle, code ou texture originale HEXCraft** n'est déduite.
