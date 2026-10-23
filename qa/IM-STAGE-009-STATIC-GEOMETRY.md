@@ -1,5 +1,8 @@
 # IM-STAGE-009 — Validation géométrique statique (MCA)
 
+> **CORRECTIF DOCUMENTAIRE — 2026-10-22 :** les transformations attribuées ci-dessous aux faces NORTH/SOUTH et EAST/WEST ne fixent pas la base au plan nommé dans le tableau. Conserver ce rapport pour l'historique, mais **ne pas utiliser ces quatre étiquettes de pose dans un blueprint ou du code**. La correction déterministe et une preuve recalculée (24 poses) sont documentées dans [IM-STAGE-010 Blueprint](../blueprints/IM-STAGE-010-TRIO-HEX-MESH.md) et [IM-STAGE-010 Rapport](IM-STAGE-010-HEX-TRANSFORMS-REPORT.json). Le statut PASS de ce document ne porte pas sur les conventions de faces. Aucun test Minecraft n'a été exécuté.
+
+
 **Date de calcul** : 2026-10-22
 **Statut** : STATIC_COORDINATE_CHECK / EXECUTED, **PAS UN TEST DU JEU**
 **Dépôt concerné** : documentation de conception uniquement ; aucun modèle ni code Minecraft testé.
