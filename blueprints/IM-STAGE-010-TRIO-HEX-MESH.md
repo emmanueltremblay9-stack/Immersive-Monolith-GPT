@@ -1,5 +1,8 @@
 # IM-STAGE-010 — Blueprint 3D Cell Trio : prismes hexagonaux émissifs
 
+> **NOTE DE TRAÇABILITÉ / 2026-10-22 :** le schéma de **trois centres alignés** documenté ci-dessous demeure une ancienne proposition, avec ses contrôles statiques historiques. L'utilisateur a ensuite désigné explicitement une référence visuelle à **trois pointes en triangle et cinq silhouettes**. Lire [IM-VIS-001 — audit de référence canonique candidate](IM-VIS-001-CELL-TRIO-CANON-CANDIDATE.md) et [paramètres proposés](IM-VIS-001-PARAMETERS.json) avant tout handoff DEV. **Aucune adoption canonique** n'est déduite de cette mise à jour ; le PASS géométrique antérieur n'établit pas la conformité à la nouvelle référence.
+
+
 **Statut : BLUEPRINT_3D PROPOSED / PAS D'IMPLÉMENTATION**
 **Date : 2026-10-22**
 **Source gouvernance avant ce document :** `bbe8ca5ee4d74ef4a637012eaea234aec6c20c6d`, dépôt `emmanueltremblay9-stack/Immersive-Monolith-GPT`, branche `main`.
