@@ -18,7 +18,9 @@ Cible de conception supposée : **Minecraft Java 1.21.1 / NeoForge** ; compatibi
 - [Gouvernance et handoff](GOVERNANCE.md) — limites des autorités et critères d'acceptation.
 - [IM-008 — handoff DEV préparé](handoffs/IM-008-DEV-BOOTSTRAP-PREPARED.md) — bootstrap NeoForge 1.21.1 proposé, non envoyé, non exécuté.
 - [IM-STAGE-009 — architecture du MVP](architecture/IM-009-NEOFORGE-MVP-CONTRACT.md) — contrats, persistance, cible et phases du premier prototype ; distinct de la décision IM-009.
-- [QA géométrique statique IM-STAGE-009](qa/IM-STAGE-009-STATIC-GEOMETRY.md) — 24 transformations calculées sans collision volumique, **non testées en jeu**.
+- [QA géométrique statique IM-STAGE-009](qa/IM-STAGE-009-STATIC-GEOMETRY.md) — rapport historique, **étiquettes des faces cardinales corrigées à l'étape 010** ; non testé en jeu.
+- [IM-STAGE-010 — blueprint 3D du Cell Trio](blueprints/IM-STAGE-010-TRIO-HEX-MESH.md) — positions déterministes, 24 rotations, rendu dynamique et choix proposés.
+- [IM-STAGE-010 — preuve mathématique](qa/IM-STAGE-010-HEX-TRANSFORMS-REPORT.json) — 24 orientations vérifiées par calcul local ; **aucun test Minecraft**.
 
 ## Principes
 
