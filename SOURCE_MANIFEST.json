@@ -87,6 +87,16 @@
       "path": "qa/IM-STAGE-011-ASSET-STATIC-REPORT.json",
       "role": "independent static validation: 34 PNG 32x32 RGBA, 36 zip entries hashed; no runtime",
       "status": "PASS_STATIC_ONLY_GAME_NOT_TESTED"
+    },
+    {
+      "path": "architecture/IM-STAGE-012-CLIENT-RENDER-INTEGRATION.md",
+      "role": "Prepared design contract linking 16-color textures to NeoForge 1.21.1 dynamic model and optional emissive rendering",
+      "status": "PROPOSED_NOT_SENT_NOT_EXECUTED"
+    },
+    {
+      "path": "qa/IM-STAGE-012-STATIC-CONTRACT-SUMMARY.json",
+      "role": "Static color-slot/PNG/path verification; source script and full output exist only as conversation attachments",
+      "status": "PASS_STATIC_ONLY_GAME_NOT_TESTED"
     }
   ],
   "external_source_restrictions": {
@@ -102,7 +112,10 @@
     "stage011_binary_assets": "CONVERSATION_ZIP_ONLY_NOT_IN_GITHUB",
     "stage011_asset_sha256": "6bf4ee97cbbc43d54dfe708d33276802d65694c83d0b2b50b5442c1d0785ad9e",
     "stage011_runtime_render": "NOT_TESTED",
-    "stage011_license_selection": "UNKNOWN_OWNER_REQUIRED"
+    "stage011_license_selection": "UNKNOWN_OWNER_REQUIRED",
+    "stage012_source_artifacts": "CONVERSATION_ONLY; script SHA-256 d8fc76689ff2cd352410be9b8827524bb6cea6f14af937bb1113196b7c98b2a7; report SHA-256 a0ffab3aa8df3fea6f62994062676ec99a4ad8ba274dd5832dae0ce01498a6b0",
+    "stage012_static_qa": "PASS_STATIC_CONTRACT_ONLY_4096_COLOR_TRIPLES_144_SLOT_MAPPING_ASSERTIONS",
+    "stage012_runtime": "NOT_TESTED; client emissive and shaderless visibility UNKNOWN"
   },
   "policy": "Source references are evidence/navigation, not permissions. Preserve decisions and resolve branch/HEAD before dependent writes."
 }
