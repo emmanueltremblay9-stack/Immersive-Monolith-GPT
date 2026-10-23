@@ -26,6 +26,9 @@ Cible de conception supposée : **Minecraft Java 1.21.1 / NeoForge** ; compatibi
 - [IM-STAGE-011 — vérification statique](qa/IM-STAGE-011-ASSET-STATIC-REPORT.json) — 34 textures 32×32 RGBA et empreintes vérifiées, pas de validation Minecraft.
 - [IM-STAGE-012 — contrat d'intégration du rendu](architecture/IM-STAGE-012-CLIENT-RENDER-INTEGRATION.md) — textures par pointe, modèles dynamiques 1.21.1, lumière/émissivité et tests à exécuter.
 - [IM-STAGE-012 — vérification statique des couleurs](qa/IM-STAGE-012-STATIC-CONTRACT-SUMMARY.json) — 4 096 triples, 144 assertions du contrat, **aucun test en jeu**.
+- [IM-VIS-001 — analyse de la référence visuelle sélectionnée](blueprints/IM-VIS-001-CELL-TRIO-CANON-CANDIDATE.md) — cinq silhouettes, groupe triangulaire, corrections proposées ; **pas une adoption de géométrie canonique**.
+- [IM-VIS-001 — coordonnées et formes candidates](blueprints/IM-VIS-001-PARAMETERS.json) — paramétrage déterministe d'un Cell Trio compact dans 1×1×1.
+- [IM-VIS-001 — contrôle géométrique statique](qa/IM-VIS-001-TRIANGULAR-STATIC-QA.json) — 5 modèles × 24 poses calculées ; **non testé dans Minecraft**.
 
 ## Principes
 
