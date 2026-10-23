@@ -72,6 +72,21 @@
       "path": "qa/IM-STAGE-010-HEX-TRANSFORMS-REPORT.json",
       "role": "executed static deterministic geometry evidence; no Minecraft run",
       "status": "PASS_STATIC_ONLY_GAME_NOT_TESTED"
+    },
+    {
+      "path": "assets/IM-STAGE-011-PALETTE.json",
+      "role": "16 proposed dye-ID visual swatches and texture reference path inventory; binary assets remain conversation-local",
+      "status": "PROPOSED_COLOR_ART_ASSETS_NOT_IN_GIT"
+    },
+    {
+      "path": "specifications/IM-STAGE-011-TEXTURES-EMISSIVE-RENDER.md",
+      "role": "texture and emissive-render architecture; explains block light vs fullbright vs bloom",
+      "status": "PROPOSED_SPEC_NOT_EXECUTED"
+    },
+    {
+      "path": "qa/IM-STAGE-011-ASSET-STATIC-REPORT.json",
+      "role": "independent static validation: 34 PNG 32x32 RGBA, 36 zip entries hashed; no runtime",
+      "status": "PASS_STATIC_ONLY_GAME_NOT_TESTED"
     }
   ],
   "external_source_restrictions": {
@@ -83,7 +98,11 @@
     "timestamp_machine_shared_source": "NOT_AVAILABLE_IN_ACCESSIBLE_PROJECT_FILES",
     "canonical_adoption": "UNKNOWN",
     "runtime_build_tests": "NOT_TESTED",
-    "geometry_evidence": "STAGE_010_LOCAL_PYTHON_PASS_24_POSES_MESH_NOT_TESTED_IN_GAME"
+    "geometry_evidence": "STAGE_010_LOCAL_PYTHON_PASS_24_POSES_MESH_NOT_TESTED_IN_GAME",
+    "stage011_binary_assets": "CONVERSATION_ZIP_ONLY_NOT_IN_GITHUB",
+    "stage011_asset_sha256": "6bf4ee97cbbc43d54dfe708d33276802d65694c83d0b2b50b5442c1d0785ad9e",
+    "stage011_runtime_render": "NOT_TESTED",
+    "stage011_license_selection": "UNKNOWN_OWNER_REQUIRED"
   },
   "policy": "Source references are evidence/navigation, not permissions. Preserve decisions and resolve branch/HEAD before dependent writes."
 }
