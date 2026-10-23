@@ -65,8 +65,8 @@
     },
     {
       "path": "blueprints/IM-STAGE-010-TRIO-HEX-MESH.md",
-      "role": "deterministic 3D point mesh, face rotation and rendering alternatives",
-      "status": "PROPOSED_BLUEPRINT"
+      "role": "historical former line-arrangement 3D blueprint; see user-selected triangular model candidate IM-VIS-001",
+      "status": "HISTORICAL_PROPOSED_NOT_NEW_CANON"
     },
     {
       "path": "qa/IM-STAGE-010-HEX-TRANSFORMS-REPORT.json",
@@ -97,6 +97,21 @@
       "path": "qa/IM-STAGE-012-STATIC-CONTRACT-SUMMARY.json",
       "role": "Static color-slot/PNG/path verification; source script and full output exist only as conversation attachments",
       "status": "PASS_STATIC_ONLY_GAME_NOT_TESTED"
+    },
+    {
+      "path": "blueprints/IM-VIS-001-CELL-TRIO-CANON-CANDIDATE.md",
+      "role": "selected user visual reference deep audit and proposed triangular five-style block model, NOT canonical approval",
+      "status": "VISUAL_REFERENCE_SELECTED_MODEL_GEOMETRY_PROPOSED"
+    },
+    {
+      "path": "blueprints/IM-VIS-001-PARAMETERS.json",
+      "role": "machine-readable coordinates, shape profile candidates, 16 dyes and data contract",
+      "status": "MODEL_PARAMS_PROPOSED_NOT_ADOPTED"
+    },
+    {
+      "path": "qa/IM-VIS-001-TRIANGULAR-STATIC-QA.json",
+      "role": "local static 5 shapes x 24 poses=120 tests; no Minecraft runtime evidence",
+      "status": "PASS_STATIC_ONLY_GAME_NOT_TESTED"
     }
   ],
   "external_source_restrictions": {
@@ -115,7 +130,12 @@
     "stage011_license_selection": "UNKNOWN_OWNER_REQUIRED",
     "stage012_source_artifacts": "CONVERSATION_ONLY; script SHA-256 d8fc76689ff2cd352410be9b8827524bb6cea6f14af937bb1113196b7c98b2a7; report SHA-256 a0ffab3aa8df3fea6f62994062676ec99a4ad8ba274dd5832dae0ce01498a6b0",
     "stage012_static_qa": "PASS_STATIC_CONTRACT_ONLY_4096_COLOR_TRIPLES_144_SLOT_MAPPING_ASSERTIONS",
-    "stage012_runtime": "NOT_TESTED; client emissive and shaderless visibility UNKNOWN"
+    "stage012_runtime": "NOT_TESTED; client emissive and shaderless visibility UNKNOWN",
+    "selected_visual_reference_sha256": "36aa174b4cf2306986234c7545178b0164b0165c59312cde6c883fc4d8840563",
+    "new_visual_reference_model_status": "SELECTED_VISUAL_REFERENCE_MODEL_CANON_CANDIDATE_NOT_ADOPTED",
+    "im_vis_001_package_sha256": "5654dd27ccc604bdb80aa3b1ceb9cf9dc72e83c99539e014df1f0f6710526561",
+    "im_vis_001_assets_location": "CONVERSATION_ATTACHMENT_ONLY_NOT_GIT_DEV",
+    "im_vis_001_runtime": "NOT_TESTED; static math only"
   },
   "policy": "Source references are evidence/navigation, not permissions. Preserve decisions and resolve branch/HEAD before dependent writes."
 }
